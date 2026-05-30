@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.send('Servidor listo y corriendo!');
 });
 
-app.get('/alumnos/nombres', (req, res) => {
+app.get('/', (req, res) => {
     const alumnos = [
         'Eduardo',
         'Alberto',
