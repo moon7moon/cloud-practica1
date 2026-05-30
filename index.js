@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
     console.log('Hola mundo en consola!!');
     res.send('Servidor listo y corriendo!');
 });
-
-app.get('/', (req, res) => {
+// Ruta para mostrar la lista de alumno
+app.get('/nombres', (req, res) => {
     const alumnos = [
         'Eduardo',
         'Alberto',
